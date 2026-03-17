@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello! How can I help you?", "Hi there! Ask me anything."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["courses", "what courses", "available courses"],
+      "responses": ["We offer Python, AI & ML, Web Development, and Data Science. Which one are you interested in?"]
+    },
+    {
+      "tag": "ai_course",
+      "patterns": ["ai", "ai&ml", "machine learning", "nlp"],
+      "responses": ["AI & ML course includes Python, Machine Learning, NLP basics and real-time projects."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "price", "course fees"],
+      "responses": ["Fees: Python ₹5000, AI ₹8000, Web Dev ₹6000."]
+    },
+    {
+      "tag": "duration",
+      "patterns": ["duration", "how long"],
+      "responses": ["Courses usually last 2–3 months."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["placement", "job"],
+      "responses": ["Yes, we provide placement assistance after course completion."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Sorry, I didn’t understand. Can you rephrase?"]
+    }
+  ]
+}
